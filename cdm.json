@@ -8,8 +8,8 @@
   },
   "contracts": {
     "@polkadot/threads": {
-      "version": 2,
-      "address": "0x6C774803ac6bcdB8eeF233b87280C5c504cad6Cd",
+      "version": 0,
+      "address": "0xFa1AB6B6aCBb056F5D9952EEDC5C67F1F3162f3A",
       "abi": [
         {
           "type": "constructor",
@@ -357,11 +357,11 @@
           "stateMutability": "view"
         }
       ],
-      "metadataCid": "bafk2bzacebzib3vlmb5oya3il7zv3hg7rpmogg5v23mioxglxys576epexrmi"
+      "metadataCid": "bafk2bzacebp7nmv5h4lp4mov23pzq6no5eati4u3nri3xkpb7cvxz4lri2er4"
     },
     "@polkadot/profiles": {
-      "version": 2,
-      "address": "0xF6C4d41cCE31DBf75413DBd120ac6Adfa2d69652",
+      "version": 0,
+      "address": "0x99dAFFC69479297C30815e3a27746f81632dfea1",
       "abi": [
         {
           "type": "constructor",
@@ -593,11 +593,11 @@
           "stateMutability": "view"
         }
       ],
-      "metadataCid": "bafk2bzacedjmgud3735w6pvc4zg5yik3cqkghyjl7qcrrwkgcxsasc4lxadmw"
+      "metadataCid": "bafk2bzaced4iqgbx7ph5dmri42jy27omodwkrouspwxkyiatiiee57cfi2r5y"
     },
     "@polkadot/contexts": {
-      "version": 2,
-      "address": "0xD7bad6D466339F62BaF0196f4b43168c8Ab07e89",
+      "version": 0,
+      "address": "0x9B935075094D7176Afc7e33C5B183109B86B1b6A",
       "abi": [
         {
           "type": "constructor",
@@ -732,11 +732,11 @@
           "stateMutability": "view"
         }
       ],
-      "metadataCid": "bafk2bzacebfplzp6cwusdwldowoq5jgtgtwmnauehio6cn34wvmdas6x2l5ns"
+      "metadataCid": "bafk2bzacebxxftyxsgmbqbqjxg2epgt2cu5efcgqudaeze7mbs2po7exzsbhu"
     },
     "@mock/reputation": {
-      "version": 2,
-      "address": "0x56047c64075bF9D71249143FBAc5B28816ce90Bb",
+      "version": 0,
+      "address": "0x94a9099379EeA0C5093F93E9934a7f6605E7922f",
       "abi": [
         {
           "type": "constructor",
@@ -887,11 +887,11 @@
           "stateMutability": "view"
         }
       ],
-      "metadataCid": "bafk2bzacedgphx3l52fa7wdkmq32f6muuo4w6envzuknf76npjd7tbmnekupk"
+      "metadataCid": "bafk2bzacedzebmc33kmrgtynlvlwxdhusuuzoxc5cbasxhfi2xjkg3n4umuxe"
     },
     "@mock/disputes": {
-      "version": 2,
-      "address": "0x5336Fa40d413d0E120Ef1E164262bA84DEd2BeD1",
+      "version": 0,
+      "address": "0x3671Fe6Ebdd5E2FFCE2EbbD499972900390bdD64",
       "abi": [
         {
           "type": "constructor",
@@ -1252,7 +1252,7 @@
           "stateMutability": "nonpayable"
         }
       ],
-      "metadataCid": "bafk2bzacecnrtr3z6etg6ly7524njdxhm23dclycormhnofwz7mhqfu4dbyu6"
+      "metadataCid": "bafk2bzaceboepbkvkkqwowok4j7elutfxpofnzoqerkdnmipumggp2w7whkxw"
     }
   },
   "registry": "0xa5747e60ae27f93e92019e4021abfc4957050141"
