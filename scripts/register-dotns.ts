@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONTRACTS_REGISTRY_ABI, MetadataPublisher, STORAGE_DEPOSIT_LIMIT } from "@parity/cdm-builder";
-import { createCdmChainClient, getChainPreset, prepareSignerFromSuri, ss58Address } from "@parity/cdm-env";
+import { createCdmChainClient, getChainPreset, prepareSignerFromSuri, ss58Address } from "@polkadot-community-foundation/cdm-env";
 import { BulletinPreparer, DEFAULT_CLIENT_CONFIG } from "@parity/product-sdk-cloud-storage";
 import { createContractFromClient } from "@parity/product-sdk-contracts";
 import { batchSubmitAndWatch } from "@parity/product-sdk-tx";
