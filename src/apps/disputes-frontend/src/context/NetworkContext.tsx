@@ -64,6 +64,21 @@ const NETWORK_PRESETS: Record<string, NetworkPreset> = {
         tokenSymbol: "PAS",
         tokenDecimals: 10,
     },
+    // Public products devnet — standard public Paseo system chains carrying PCF's
+    // superapp runtimes: Asset Hub 1000 / Bulletin 1010, gateway dev-dot.li.
+    // registryAddress = the devnet CDM ContractRegistry (register: summit-net-
+    // deployments/DEVNET.md); the disputes contract is resolved from it live.
+    devnet: {
+        assethubUrl: [
+            "wss://asset-hub-paseo-rpc.n.dwellir.com",
+            "wss://sys.turboflakes.io/asset-hub-paseo",
+        ],
+        bulletinUrl: "wss://bulletin-paseo.tservices.es:8443",
+        ipfsGatewayUrl: "https://devnet-ipfs.api.polkadotcommunity.foundation/ipfs",
+        registryAddress: "0x05662b3dbd5dd9f2ff92d67630477e84b0b37c1f",
+        tokenSymbol: "PAS",
+        tokenDecimals: 10,
+    },
     local: {
         assethubUrl: "ws://127.0.0.1:10020",
         bulletinUrl: "ws://127.0.0.1:10030",
@@ -129,7 +144,7 @@ export function useNetwork(): NetworkContextType {
 // Provider
 // ---------------------------------------------------------------------------
 
-const DEFAULT_NETWORK = "paseo";
+const DEFAULT_NETWORK = "devnet";
 
 export function NetworkProvider({ children }: { children: React.ReactNode }) {
     const [network, setNetworkState] = useState(DEFAULT_NETWORK);
